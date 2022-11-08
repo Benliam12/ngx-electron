@@ -1,4 +1,5 @@
 # ngx-electron
+This package forked from ThorstenHans/ngx-electron
 
 [![Build Status](https://travis-ci.org/ThorstenHans/ngx-electron.svg?branch=master)](https://travis-ci.org/ThorstenHans/ngx-electron)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
@@ -79,7 +80,7 @@ The `ElectronService` is exposing all API's accessible from within Electron's re
 
   * `desktopCapturer: Electron.DesktopCapturer` - Electron's desktop capturing API
   * `ipcRenderer: Electron.IpcRenderer` - Electron IpcRenderer
-  * `remote: Electron.Remote` - Electron Remote capabilities
+  * `remote: any` - Electron Remote capabilities
   * `webFrame: Electron.WebFrame` - Electron WebFrame
   * `clipboard: Electron.Clipboard` - Clipboard API
   * `crashReporter: Electron.CrashReporter` - Electron's CrashReporter
