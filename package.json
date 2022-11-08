@@ -30,7 +30,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/ThorstenHans/ngx-electron/issues"
+    "url": "https://github.com/markbrutx/ngx-electron-fresh/issues"
   },
   "dependencies": {
     "@angular/common": "^8.2.2",

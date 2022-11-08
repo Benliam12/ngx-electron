@@ -3,33 +3,33 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "ngx-electron": {
-            "root": "projects/ngx-electron",
-            "sourceRoot": "projects/ngx-electron/src",
+        "ngx-electron-fresh": {
+            "root": "projects/ngx-electron-fresh",
+            "sourceRoot": "projects/ngx-electron-fresh/src",
             "projectType": "library",
             "prefix": "lib",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-ng-packagr:build",
                     "options": {
-                        "tsConfig": "projects/ngx-electron/tsconfig.lib.json",
-                        "project": "projects/ngx-electron/ng-package.json"
+                        "tsConfig": "projects/ngx-electron-fresh/tsconfig.lib.json",
+                        "project": "projects/ngx-electron-fresh/ng-package.json"
                     }
                 },
                 "test": {
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
-                        "main": "projects/ngx-electron/test.ts",
-                        "tsConfig": "projects/ngx-electron/tsconfig.tests.json",
-                        "karmaConfig": "projects/ngx-electron/karma.conf.js"
+                        "main": "projects/ngx-electron-fresh/test.ts",
+                        "tsConfig": "projects/ngx-electron-fresh/tsconfig.tests.json",
+                        "karmaConfig": "projects/ngx-electron-fresh/karma.conf.js"
                     }
                 },
                 "lint": {
                     "builder": "@angular-devkit/build-angular:tslint",
                     "options": {
                         "tsConfig": [
-                            "projects/ngx-electron/tsconfig.lib.json",
-                            "projects/ngx-electron/tsconfig.tests.json"
+                            "projects/ngx-electron-fresh/tsconfig.lib.json",
+                            "projects/ngx-electron-fresh/tsconfig.tests.json"
                         ],
                         "exclude": [
                             "**/node_modules/**"
@@ -39,5 +39,5 @@
             }
         }
     },
-    "defaultProject": "ngx-electron"
+    "defaultProject": "ngx-electron-fresh"
 }

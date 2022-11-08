@@ -17,8 +17,8 @@
       "dom"
     ],
     "paths": {
-      "ngx-electron": [
-        "dist/ngx-electron"
+      "ngx-electron-fresh": [
+        "dist/ngx-electron-fresh"
       ],
       "core-js/es7/reflect": [
         "node_modules/core-js/proposals/reflect-metadata"

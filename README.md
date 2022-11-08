@@ -1,12 +1,12 @@
-# ngx-electron
+# ngx-electron-fresh
 This package forked from ThorstenHans/ngx-electron
 
 [![Build Status](https://travis-ci.org/ThorstenHans/ngx-electron.svg?branch=master)](https://travis-ci.org/ThorstenHans/ngx-electron)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-`ngx-electron` is a small Module for [Angular](http://angular.io) which makes calling [Electron](https://electronjs.org) APIs from the `Renderer Process` easier. By adding it to your Angular project, you'll get IntelliSense and a simple Angular service which acts as facade for Electron APIs.
+`ngx-electron-fresh` is a small Module for [Angular](http://angular.io) which makes calling [Electron](https://electronjs.org) APIs from the `Renderer Process` easier. By adding it to your Angular project, you'll get IntelliSense and a simple Angular service which acts as facade for Electron APIs.
 
-`ngx-electron` is licensed under [MIT](https://opensource.org/licenses/MIT).
+`ngx-electron-fresh` is licensed under [MIT](https://opensource.org/licenses/MIT).
 
 ## Introduction
 
@@ -18,12 +18,12 @@ Checkout the introduction post on my [blog](https://thorsten-hans.com/integratin
 
 ## Installation
 
-`ngx-electron` can be installed easily using either `yarn` or `npm` commands in the scope of an angular project.
+`ngx-electron-fresh` can be installed easily using either `yarn` or `npm` commands in the scope of an angular project.
 
 ```bash
-yarn add ngx-electron --save
+yarn add ngx-electron-fresh --save
 # or
-npm install ngx-electron --save
+npm install ngx-electron-fresh --save
 ```
 
 The `NgxElectronModule` needs to be import in your `root` Angular module (eg `AppModule`).

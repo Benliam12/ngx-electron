@@ -1,5 +1,5 @@
 {
-  "name": "ngx-electron",
+  "name": "ngx-electron-fresh",
   "description": "An Angular wrapper for Electron's Renderer APIs",
   "author": "Thorsten Hans",
   "keywords": [
@@ -9,13 +9,13 @@
     "electron-js"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ThorstenHans/ngx-electron",
+  "homepage": "https://github.com/markbrutx/ngx-electron-fresh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThorstenHans/ngx-electron.git"
+    "url": "git+https://github.com/markbrutx/ngx-electron-fresh"
   },
   "bugs": {
-    "url": "https://github.com/ThorstenHans/ngx-electron/issues"
+    "url": "https://github.com/markbrutx/ngx-electron-fresh/issues"
   },
   "peerDependencies": {
     "@angular/core": ">=8.0.0",
