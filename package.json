@@ -1,8 +1,9 @@
 {
   "name": "ngx-electron-fresh",
   "description": "A wrapper for Electron Renderer APIs. Finally easy to use in Angular forked from ThorstenHans/ngx-electron",
-  "version": "1.0.4",
-  "private": true,
+  "version": "1.0.5",
+  "private": false,
+  "main": "dist",
   "repository": {
     "type": "git",
     "url": "https://github.com/markbrutx/ngx-electron-fresh"
