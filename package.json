@@ -8,13 +8,14 @@
     "url": "git+https://github.com/Benliam12/ngx-electron.git"
   },
   "files": [
-    "dist/@benliam12/ngx-electron"
+    "dist/@benliam12/ngx-electron",
+    "README.md"
   ],
   "author": "Thorsten Hans <thorsten.hans@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "ng build",
-    "build2": "ng build --configuration production",
+    "build-win": "ng build && copy README.md dist\\@benliam12\\ngx-electron\\README.md",
+    "build": "ng build && cp README.md dist\\@benliam12\\ngx-electron\\README.md",
     "commit": "git-cz",
     "lint": "ng lint",
     "start": "ng serve",

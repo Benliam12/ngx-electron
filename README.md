@@ -1,12 +1,12 @@
 # ngx-electron-fresh
-This package forked from ThorstenHans/ngx-electron
+This package forked from [markbrutx/ngx-electron-fresh](https://github.com/markbrutx/ngx-electron-fresh)
 
 [![Build Status](https://travis-ci.org/markbrutx/ngx-electron-fresh.svg?branch=master)](https://travis-ci.org/markbrutx/ngx-electron-fresh)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-`ngx-electron-fresh` is a small Module for [Angular](http://angular.io) which makes calling [Electron](https://electronjs.org) APIs from the `Renderer Process` easier. By adding it to your Angular project, you'll get IntelliSense and a simple Angular service which acts as facade for Electron APIs.
+`ngx-electron` is a small Module for [Angular](http://angular.io) which makes calling [Electron](https://electronjs.org) APIs from the `Renderer Process` easier. By adding it to your Angular project, you'll get IntelliSense and a simple Angular service which acts as facade for Electron APIs.
 
-`ngx-electron-fresh` is licensed under [MIT](https://opensource.org/licenses/MIT).
+`ngx-electron` is licensed under [MIT](https://opensource.org/licenses/MIT).
 
 ## Introduction
 
@@ -14,12 +14,10 @@ Checkout the introduction post on my [blog](https://thorsten-hans.com/integratin
 
 ## Installation
 
-`ngx-electron-fresh` can be installed easily using either `yarn` or `npm` commands in the scope of an angular project.
+`ngx-electron` can be installed easily using `npm` commands in the scope of an angular project.
 
 ```bash
-yarn add ngx-electron-fresh --save
-# or
-npm install ngx-electron-fresh --save
+npm install @benliam12/ngx-electron --save
 ```
 
 The `NgxElectronModule` needs to be import in your `root` Angular module (eg `AppModule`).
@@ -29,7 +27,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
-import { NgxElectronModule } from 'ngx-electron';
+import { NgxElectronModule } from '@benliam12/ngx-electron';
 
 
 @NgModule({
@@ -49,7 +47,7 @@ Once the module has been imported, you can easily use dependency injection to ge
 
 ``` typescript
 import { Component } from '@angular/core';
-import { ElectronService } from 'ngx-electron';
+import { ElectronService } from '@benliam12/ngx-electron';
 
 @Component({
   selector: 'my-app',
