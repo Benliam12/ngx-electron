@@ -12,10 +12,6 @@ This package forked from ThorstenHans/ngx-electron
 
 Checkout the introduction post on my [blog](https://thorsten-hans.com/integrating-angular-and-electron-using-ngx-electron) for more details.
 
-## Support me
-
-[![Become a Patron!](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=16380186)
-
 ## Installation
 
 `ngx-electron-fresh` can be installed easily using either `yarn` or `npm` commands in the scope of an angular project.

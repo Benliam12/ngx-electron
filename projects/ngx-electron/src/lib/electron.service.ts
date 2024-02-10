@@ -4,9 +4,9 @@ import { ElectronWindow } from './typings/electron.window';
 declare let window: ElectronWindow;
 
 export class ElectronService {
-    private _electron: Electron.RendererInterface;
+    private _electron:any;
 
-    private get electron(): Electron.RendererInterface {
+    private get electron():any {
         if (!this._electron) {
             if (window && window.require) {
                 this._electron = window.require('electron');
