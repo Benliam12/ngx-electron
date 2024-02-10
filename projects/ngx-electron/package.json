@@ -2,6 +2,7 @@
   "name": "@benliam12/ngx-electron",
   "description": "An Angular wrapper for Electron's Renderer APIs",
   "author": "Thorsten Hans",
+  "version": "1.0.4",
   "keywords": [
     "angular",
     "ng",
